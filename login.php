@@ -44,7 +44,7 @@
 				$_SESSION['fullname']= $row['fullname'];
 				$_SESSION['staffNo']= $row['staffNo'];
 				$_SESSION['ICno']= $row['ICno'];
-				header('location:confirmation.php');
+				header('location:check_in.php');
 			}
 			else
 			{

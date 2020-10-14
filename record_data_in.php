@@ -21,4 +21,4 @@ else
   $query= "INSERT INTO tbl_touch (id_staff,touch_in) VALUES('$id','$touch_in')";
 }
 mysqli_query($con,$query);
-    //echo $query;
+    header('location: check_in.php');

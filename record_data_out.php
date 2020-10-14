@@ -21,4 +21,4 @@ else
   $query= "INSERT INTO tbl_touch (touch_out) VALUES('$touch_out')";
 }
 mysqli_query($con,$query);
-    //echo $query;
+header('location: check_in.php');
