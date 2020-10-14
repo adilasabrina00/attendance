@@ -1,0 +1,141 @@
+/*CSS style sheet*/
+
+#main-wrapper{
+	width:450px;
+	margin: 0 auto;
+    margin-bottom: auto;
+    margin-top: auto;
+	background:white;
+	padding:10px;
+	border-radius: 10px;
+	border: 2px solid #2c3e50;
+    background: #00cc69;
+    box-shadow: 5px 5px;
+}
+.avatar{
+	width:150px;
+	text-align:center;
+	border-radius:20%;
+}
+
+.myform{
+	width:400px;
+	margin: auto;
+}
+
+.inputvalues{
+	width:438px;
+	margin: auto;
+	padding:5px;
+}	
+#login_btn{
+	margin-top:10px;
+	background-color:#FFFFFF;
+	padding:5px;
+	color:black;
+	width:50%;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	border-color:#3498db;
+	border-radius:10px;
+}
+#login_btn:hover {
+  background-color: #3498db;
+  color: black;
+}
+
+#register_btn{
+	margin-bottom:10px;
+	margin-top:10px;
+	background-color:#FFFFFF;
+	padding:5px;
+	color:black;
+	width:50%;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	border-color:#27ae60;
+	border-radius:10px;
+}
+#register_btn:hover {
+  background-color: #27ae60;
+  color: black;
+}
+
+#back_btn{
+	margin-bottom:5px;
+	margin-top:10px;
+	background-color:#FFFFFF;
+	padding:5px;
+	color:black;
+	width:30%;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	border-color:#e74c3c;
+	border-radius:10px;
+}
+#back_btn:hover {
+  background-color: #e74c3c;
+  color: black;
+}
+
+#logout{
+	margin-bottom:5px;
+	margin-top:10px;
+	background-color:#FFFFFF;
+	padding:5px;
+	color:black;
+	width:30%;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	border-color:#3498db;
+	border-radius:10px;
+}
+#logout:hover {
+  background-color: #3498db;
+  color: black;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+#verify_btn{
+	margin-bottom:20px;
+	margin-top:10px;
+	background-color:#FFFFFF;
+	padding:5px;
+	color:black;
+	width:30%;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	border-color:#3498db;
+	border-radius:10px;
+}
+#verify_btn:hover {
+  background-color:#3498db;
+  color:black;
+}
+
+#report_btn{
+	margin-bottom:20px;
+	margin-top:10px;
+	background-color:#FFFFFF;
+	padding:5px;
+	color:black;
+	width:30%;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+    border-color: #3498db;
+	border-radius:10px;
+}
+#report_btn:hover {
+  background-color:#3498db;
+  color:black;
+}
