@@ -172,7 +172,7 @@ body {
 }
 </style>
       
-      <form action=".php" method="post">
+      <form action="admin_login.php" method="post">
           <center><button class="btn admin">Admin Login</button></center><br>
       </form>
       

@@ -111,8 +111,8 @@ body {
 
 </style>
       
-      <form action=".php" method="post">
-          <center><button class="btn admin">Admin Login</button></center><br>
+      <form action="view_late_absent.php" method="post">
+          <center><button class="btn admin">View Late & Absent</button></center><br>
       </form>    
   </div>
 </div>
