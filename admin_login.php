@@ -10,7 +10,7 @@
 </head>
 <body style="background: url(background_4.jpg)">
 
-    <form class="myform" action="login.php" method="post" enctype= "multipart/form-data"><br>
+    <form class="myform" action="admin_login.php" method="post" enctype= "multipart/form-data"><br>
     <br><br><br><br><br><br><div id="main-wrapper">
 	    <center>
 	        <h2>Admin Login</h2>
