@@ -18,7 +18,7 @@ if(isset($_POST['login']))
         $_SESSION['fullname']= $row['fullname'];
         $_SESSION['staffNo']= $row['staffNo'];
         $_SESSION['ICno']= $row['ICno'];
-        header('location:staff/check_in.php');
+        header('location:staff/');
     }
     else
     {

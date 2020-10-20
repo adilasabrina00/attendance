@@ -413,3 +413,63 @@ input[type=text], input[type=password], select, textarea {
 h2 {
     text-align: center;
 }
+
+.check_in table, .check_in th, .check_in td {
+    border: 1px solid black;
+}
+
+.check_in table {
+    border-collapse: collapse;
+    width: 75%;
+    margin: auto;
+}
+
+.check_in th {
+    height: 20px;
+}
+
+.check_in td {
+    height: 20px;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 13px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius:10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #B0B3D6;
+    min-width: 140px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
