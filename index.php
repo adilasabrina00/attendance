@@ -1,2 +1,2 @@
 <?php
-header('location: main.php');
+header('location: v2/');
