@@ -12,11 +12,12 @@ if (isset($_POST['login'])) {
         // invalid
         ?>
         <script type="text/javascript">
-            alert("Invalid credentials") ;
+            alert("Invalid credentials");
             window.location = 'index.php?menu=admin_login';
         </script>
         <?php
     } else {
-        header('location: admin/view_report.php');
+        $_SESSION['admin'] = 'admin';
+        header('location: admin/');
     }
 }
