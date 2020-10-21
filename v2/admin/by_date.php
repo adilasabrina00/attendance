@@ -3,14 +3,14 @@
 <form action="index.php?menu=by_date" method="post">
     <table style="margin: auto">
         <tr>
-            <td>Choose Date</td>
+            <td><label for="tarikh">Choose Date</label></td>
             <td rowspan="2">
                 <button type="submit" class="btn btn_normal">View</button>
             </td>
         </tr>
         <tr>
             <td>
-                <input type="date" name="tarikh" required>
+                <input type="date" name="tarikh" id="tarikh" required>
             </td>
         </tr>
     </table>
@@ -43,8 +43,12 @@ if (isset($_POST['tarikh'])) {
                 <td><?php echo $bil++; ?></td>
                 <td><?php echo $row['fullname']; ?></td>
                 <td><?php echo $row['staffNo']; ?></td>
-                <td><?php echo masa($row['touch_in']); ?></td>
-                <td><?php echo masa($row['touch_out']); ?></td>
+                <td<?php awas($row['touch_in'], 'mula'); ?>>
+                    <?php echo masa($row['touch_in']); ?>
+                </td>
+                <td<?php awas($row['touch_out'], 'tamat'); ?>>
+                    <?php echo masa($row['touch_out']); ?>
+                </td>
             </tr>
             <?php
         }

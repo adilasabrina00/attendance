@@ -38,8 +38,12 @@ if ($result->num_rows) {
                 <th>Touch Out</th>
             </tr>
             <tr>
-                <td><?php echo $touch_in; ?></td>
-                <td><?php echo $touch_out; ?></td>
+                <td<?php awas($touch_in, 'mula'); ?>>
+                    <?php echo ($touch_in == '-') ? $touch_in : masa($touch_in); ?>
+                </td>
+                <td<?php awas($touch_in, 'tamat'); ?>>
+                    <?php echo ($touch_out == '-') ? $touch_out : masa($touch_out); ?>
+                </td>
             </tr>
             <tr>
                 <th>
@@ -55,6 +59,8 @@ if ($result->num_rows) {
             </tr>
         </table>
 
+        <br>
+        <h3 style="text-align: center;"><?php echo date('j-n-Y'); ?></h3>
         <br>
     </div>
 </div>

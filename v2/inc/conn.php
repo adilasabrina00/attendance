@@ -4,7 +4,7 @@ session_start();
 
 $host = 'localhost';
 $username = 'root';
-$password = '';
+$password = '123456';
 $dbname = 'logindb';
 
 $con = new mysqli($host, $username, $password, $dbname);
@@ -28,7 +28,7 @@ function tarikh($tarikh)
 
 function masa($tarikh)
 {
-    $masa = substr($tarikh, 10, 6);
+    $masa = substr($tarikh, 11, 5);
     list($jam, $minit) = explode(':', $masa);
     $jam = intval($jam);
     $ampm = 'PM';
@@ -45,4 +45,22 @@ function kalih($tarikh)
 {
     list($a, $b, $c) = explode('-', $tarikh);
     return "$c-$b-$a";
+}
+
+# working hours
+function awas($tarikh, $waktu)
+{
+    $mulakerja = '08:00';
+    $tamatkerja = '17:00';
+    $masa = substr($tarikh, 11, 5);
+
+    if ($waktu == 'mula') {
+        if ($masa > $mulakerja) {
+            echo ' style="color: red;"';
+        }
+    } elseif ($waktu == 'tamat') {
+        if ($masa < $tamatkerja) {
+            echo ' style="color: red;"';
+        }
+    }
 }
