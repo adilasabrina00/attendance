@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84cd9539-6381-4c31-950a-9c31ac53986a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/inc/conn.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/conn.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1j69owguAVbjmr7VM6yV2VbHbZi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\M93z\Dropbox\www\apps\temp05\attendance\v2\admin" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84cd9539-6381-4c31-950a-9c31ac53986a" name="Default Changelist" comment="" />
+      <created>1603113853032</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603113853032</updated>
+      <workItem from="1603113854197" duration="3438000" />
+      <workItem from="1603151835227" duration="8983000" />
+      <workItem from="1603193160110" duration="1273000" />
+      <workItem from="1603196051010" duration="4528000" />
+      <workItem from="1603279185508" duration="6195000" />
+    </task>
+    <task id="LOCAL-00001" summary="create folder admin &amp; staff. &#10;Untuk frontpage, fail CSS hanya satu">
+      <created>1603165154693</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603165154693</updated>
+    </task>
+    <task id="LOCAL-00002" summary="sedang baiki folder staff">
+      <created>1603203203742</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603203203742</updated>
+    </task>
+    <task id="LOCAL-00003" summary="siap baiki bahagian staff">
+      <created>1603269132368</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603269132368</updated>
+    </task>
+    <task id="LOCAL-00004" summary="bahagian admin, report by date">
+      <created>1603274282926</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603274282926</updated>
+    </task>
+    <task id="LOCAL-00005" summary="bahagian admin siap semua">
+      <created>1603284078202</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603284078202</updated>
+    </task>
+    <task id="LOCAL-00006" summary="bahagian admin siap semua">
+      <created>1603284214557</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603284214557</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="create folder admin &amp; staff. &#10;Untuk frontpage, fail CSS hanya satu" />
+    <MESSAGE value="sedang baiki folder staff" />
+    <MESSAGE value="siap baiki bahagian staff" />
+    <MESSAGE value="bahagian admin, report by date" />
+    <MESSAGE value="bahagian admin siap semua" />
+    <option name="LAST_COMMIT_MESSAGE" value="bahagian admin siap semua" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603249530725">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="393" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.0.1366.728/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1603197292439" />
+    <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603249530725" />
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603193919454">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1366.0.1366.728/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1603193919454" />
+    <state x="430" y="219" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1603284110760">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="430" y="219" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1366.0.1366.728/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1603284110760" />
+    <state x="416" y="0" key="CommitChangelistDialog2" timestamp="1603284212691">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="416" y="0" key="CommitChangelistDialog2/-1366.0.1366.728/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1603284212691" />
+    <state x="585" y="85" key="CommitChangelistDialog2/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603274281539" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1603248817982">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603248817982" />
+    <state x="566" y="309" key="NewPhpFileDialog" timestamp="1603283273251">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="566" y="309" key="NewPhpFileDialog/-1366.0.1366.728/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1603283273251" />
+    <state x="795" y="442" key="NewPhpFileDialog/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603270653347" />
+    <state x="393" y="176" key="Vcs.Push.Dialog.v2" timestamp="1603284782455">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="393" y="176" key="Vcs.Push.Dialog.v2/-1366.0.1366.728/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1603284782455" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603274295407" />
+    <state x="1452" y="0" width="988" height="687" maximized="true" key="dock-window-1" timestamp="1603279689856">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="1452" y="0" width="988" height="687" maximized="true" key="dock-window-1/-1366.0.1366.728/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1603279689856" />
+    <state x="1742" y="298" width="1382" height="852" maximized="true" key="dock-window-1/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603237333830" />
+    <state x="1714" y="13" width="1009" height="687" maximized="true" key="dock-window-2" timestamp="1603114275694">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="1714" y="13" width="1009" height="687" maximized="true" key="dock-window-2/-1366.0.1366.728/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1603114275694" />
+    <state x="-1174" y="0" width="1009" height="687" maximized="true" key="dock-window-3" timestamp="1603114275694">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-1174" y="0" width="1009" height="687" maximized="true" key="dock-window-3/-1366.0.1366.728/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1603114275694" />
+    <state x="-1028" y="192" width="1009" height="488" maximized="true" key="dock-window-4" timestamp="1603115026584">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-1028" y="192" width="1009" height="488" maximized="true" key="dock-window-4/-1366.0.1366.728/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1603115026584" />
+  </component>
+</project>
