@@ -1,8 +1,11 @@
 <?php
 require '../inc/conn.php';
 
+if (!isset($_SESSION['id'])) header('location: ../logout.php');
 $id = $_SESSION['id'];
-
+$sql = "SELECT * FROM fileupload_db WHERE id = $id";
+$row = $con->query($sql)->fetch_assoc();
+$stafinfo = 'Name: '.$row['fullname'] . ' :: Staff No: ' . $row['staffNo'];
 
 $menu = (isset($_GET['menu'])) ? $_GET['menu'] : 'check_in';
 if (!file_exists("$menu.php")) exit;
@@ -39,6 +42,7 @@ if (!file_exists("$menu.php")) exit;
 </div>
 
 <div class="footer">
+    <strong><?php echo $stafinfo; ?></strong><br>
     &copy; 2020 Politeknik Tuanku Syed Sirajuddin (PTSS),
     All rights reserved Developed by FRP
 </div>
