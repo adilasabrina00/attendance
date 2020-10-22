@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84cd9539-6381-4c31-950a-9c31ac53986a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/password-change.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/password.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/stafflist-delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/stafflist-reset.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/stafflist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/jquery-3.5.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staff/password-change.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staff/password.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/style-print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staff/report-print.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/conn.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/conn.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staff/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff/record_data_out.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff/record_data_out.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff/report.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff/report.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +73,8 @@
       <workItem from="1603196051010" duration="4528000" />
       <workItem from="1603279185508" duration="6195000" />
       <workItem from="1603286741972" duration="2203000" />
-      <workItem from="1603324837006" duration="9654000" />
+      <workItem from="1603324837006" duration="10202000" />
+      <workItem from="1603358095157" duration="1976000" />
     </task>
     <task id="LOCAL-00001" summary="create folder admin &amp; staff. &#10;Untuk frontpage, fail CSS hanya satu">
       <created>1603165154693</created>
@@ -126,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603284214557</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="admin &amp; staf boleh change password&#10;password mesti ada huruf besar, huruf kecil &amp; nombor&#10;admin boleh;&#10;- delete staf&#10;- reset password staf">
+      <created>1603341308341</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603341308341</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +138,8 @@
     <MESSAGE value="siap baiki bahagian staff" />
     <MESSAGE value="bahagian admin, report by date" />
     <MESSAGE value="bahagian admin siap semua" />
-    <option name="LAST_COMMIT_MESSAGE" value="bahagian admin siap semua" />
+    <MESSAGE value="admin &amp; staf boleh change password&#10;password mesti ada huruf besar, huruf kecil &amp; nombor&#10;admin boleh;&#10;- delete staf&#10;- reset password staf" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin &amp; staf boleh change password&#10;password mesti ada huruf besar, huruf kecil &amp; nombor&#10;admin boleh;&#10;- delete staf&#10;- reset password staf" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603249530725">
@@ -155,11 +155,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="430" y="219" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1366.0.1366.728/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1603284110760" />
-    <state x="416" y="0" key="CommitChangelistDialog2" timestamp="1603284212691">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="585" y="85" key="CommitChangelistDialog2" timestamp="1603341303782">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="416" y="0" key="CommitChangelistDialog2/-1366.0.1366.728/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1603284212691" />
-    <state x="585" y="85" key="CommitChangelistDialog2/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603274281539" />
+    <state x="585" y="85" key="CommitChangelistDialog2/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603341303782" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1603337250594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -169,11 +169,11 @@
     </state>
     <state x="566" y="309" key="NewPhpFileDialog/-1366.0.1366.728/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1603283273251" />
     <state x="795" y="442" key="NewPhpFileDialog/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603339431035" />
-    <state x="393" y="176" key="Vcs.Push.Dialog.v2" timestamp="1603284782455">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603341325733">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="393" y="176" key="Vcs.Push.Dialog.v2/-1366.0.1366.728/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1603284782455" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603274295407" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603341325733" />
     <state x="1452" y="0" width="988" height="687" maximized="true" key="dock-window-1" timestamp="1603325222165">
       <screen x="1920" y="312" width="1366" height="768" />
     </state>

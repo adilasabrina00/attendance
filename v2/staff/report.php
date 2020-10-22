@@ -14,7 +14,7 @@
                 <select name="bulan" id="bulan" required>
                     <option value=""></option>
                     <?php
-                    foreach ($listbulan as $index=>$namabulan) {
+                    foreach ($listbulan as $index => $namabulan) {
                         echo "<option value=\"$index\">$namabulan</option>";
                     }
                     ?>
@@ -56,5 +56,13 @@ if (isset($_POST['bulan'])) {
         }
         ?>
     </table>
+
+    <form action="report-print.php" method="post">
+        <p style="text-align: center">
+            <input type="hidden" name="bulan" value="<?php echo $bulan; ?>">
+            <input type="hidden" name="tahun" value="<?php echo $tahun; ?>">
+            <button type="submit" class="btn btn_normal">Print</button>
+        </p>
+    </form>
     <?php
 }
