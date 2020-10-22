@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84cd9539-6381-4c31-950a-9c31ac53986a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/inc/conn.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/conn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/password-change.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/password.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/stafflist-delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/stafflist-reset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/stafflist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staff/password-change.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staff/password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff/record_data_out.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff/record_data_out.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/staff" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,10 +61,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\M93z\Dropbox\www\apps\temp05\attendance\v2\staff" />
       <recent name="C:\Users\M93z\Dropbox\www\apps\temp05\attendance\v2\admin" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -66,6 +81,8 @@
       <workItem from="1603193160110" duration="1273000" />
       <workItem from="1603196051010" duration="4528000" />
       <workItem from="1603279185508" duration="6195000" />
+      <workItem from="1603286741972" duration="2203000" />
+      <workItem from="1603324837006" duration="9654000" />
     </task>
     <task id="LOCAL-00001" summary="create folder admin &amp; staff. &#10;Untuk frontpage, fail CSS hanya satu">
       <created>1603165154693</created>
@@ -113,7 +130,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -143,25 +160,25 @@
     </state>
     <state x="416" y="0" key="CommitChangelistDialog2/-1366.0.1366.728/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1603284212691" />
     <state x="585" y="85" key="CommitChangelistDialog2/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603274281539" />
-    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1603248817982">
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1603337250594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603248817982" />
-    <state x="566" y="309" key="NewPhpFileDialog" timestamp="1603283273251">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603337250594" />
+    <state x="795" y="442" key="NewPhpFileDialog" timestamp="1603339431035">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="566" y="309" key="NewPhpFileDialog/-1366.0.1366.728/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1603283273251" />
-    <state x="795" y="442" key="NewPhpFileDialog/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603270653347" />
+    <state x="795" y="442" key="NewPhpFileDialog/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603339431035" />
     <state x="393" y="176" key="Vcs.Push.Dialog.v2" timestamp="1603284782455">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="393" y="176" key="Vcs.Push.Dialog.v2/-1366.0.1366.728/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1603284782455" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603274295407" />
-    <state x="1452" y="0" width="988" height="687" maximized="true" key="dock-window-1" timestamp="1603279689856">
-      <screen x="1366" y="0" width="1366" height="728" />
+    <state x="1452" y="0" width="988" height="687" maximized="true" key="dock-window-1" timestamp="1603325222165">
+      <screen x="1920" y="312" width="1366" height="768" />
     </state>
     <state x="1452" y="0" width="988" height="687" maximized="true" key="dock-window-1/-1366.0.1366.728/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1603279689856" />
-    <state x="1742" y="298" width="1382" height="852" maximized="true" key="dock-window-1/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603237333830" />
+    <state x="1742" y="298" width="1382" height="852" maximized="true" key="dock-window-1/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603325222165" />
     <state x="1714" y="13" width="1009" height="687" maximized="true" key="dock-window-2" timestamp="1603114275694">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>

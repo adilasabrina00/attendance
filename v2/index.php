@@ -13,6 +13,7 @@ if (!file_exists("$menu.php")) exit;
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Attendance System</title>
     <link rel="stylesheet" href="inc/style.css">
+    <script src="inc/jquery-3.5.1.min.js"></script>
 </head>
 <body>
 

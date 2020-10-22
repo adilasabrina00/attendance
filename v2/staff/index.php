@@ -20,6 +20,7 @@ if (!file_exists("$menu.php")) exit;
     <title>Attendance System</title>
     <link rel="stylesheet" href="../inc/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../inc/jquery-3.5.1.min.js"></script>
 </head>
 <body>
 
@@ -31,6 +32,7 @@ if (!file_exists("$menu.php")) exit;
     <a href="index.php?menu=check_in"<?php active_menu($menu, 'check_in'); ?>>Check In</a>
     <a href="index.php?menu=report"<?php active_menu($menu, 'report'); ?>>Report</a>
     <a href="../logout.php" class="right">Logout</a>
+    <a href="index.php?menu=password" class="right">Change Password</a>
 </div>
 
 <div class="row">
