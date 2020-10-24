@@ -22,7 +22,7 @@
         <label><b>Staff No:</b></label><br>
         <input required name="staffNo" type="text" class="inputvalues" placeholder="Enter Staff No"/><br>
         <label><b>IC No:</b></label><br>
-        <input required name="ICno" type="text" class="inputvalues" placeholder="Enter IC No"/><br>
+        <input required name="ICno" type="text" class="inputvalues" placeholder="Enter IC No" minlength="12" maxlength="12"/><br>
         <label><b>Password:</b></label><br>
         <span>There must be uppercase, lowercase letters and numbers.</span><br>
         <input required name="password" id="kata1" type="password" class="inputvalues"
