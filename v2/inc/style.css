@@ -181,7 +181,7 @@ body {
 .header {
     padding: 20px;
     text-align: center;
-    background: #00cc69;
+    background: #00cc69; /* url("../imgs/BIHAH.jpeg")*/
     color: white;
 }
 

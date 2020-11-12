@@ -14,7 +14,7 @@ if ($result->num_rows) {
 }
 ?>
 
-<div id="main-wrapper">
+<div id="main-wrapper" style="display: none">
 
     <div style="text-align: center;">
         <h2>Check-In Page</h2>
@@ -64,3 +64,21 @@ if ($result->num_rows) {
         <br>
     </div>
 </div>
+
+<div id="no-coverage">
+    <h2>No Coverage</h2>
+    <p style="text-align: center;">Sorry, you have to connect with school wifi.</p>
+</div>
+
+<script>
+    $(function () {
+        $('#main-wrapper').hide();
+        $.get('<?php echo $localserver; ?>', function (data, status) {
+            if (status === 'success') {
+                $('#main-wrapper').show();
+                $('#no-coverage').hide();
+            }
+        });
+
+    });
+</script>

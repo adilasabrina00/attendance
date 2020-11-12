@@ -2,11 +2,15 @@
 date_default_timezone_set('Asia/Kuala_Lumpur');
 session_start();
 
+# local server
+$localserver = 'http://localhost/temp05/temp/touch.php';
+#$localserver = 'check_in.php';
+
+# database connection
 $host = 'localhost';
 $username = 'root';
 $password = '123456';
 $dbname = 'logindb';
-
 $con = new mysqli($host, $username, $password, $dbname);
 
 function active_menu($menu1, $menu2)

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84cd9539-6381-4c31-950a-9c31ac53986a" name="Default Changelist" comment="print report utk staff">
+    <list default="true" id="84cd9539-6381-4c31-950a-9c31ac53986a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/by_date.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/by_date.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/conn.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/conn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/inc/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff/check_in.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff/check_in.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,13 @@
       <workItem from="1603286741972" duration="2203000" />
       <workItem from="1603324837006" duration="10202000" />
       <workItem from="1603358095157" duration="2282000" />
-      <workItem from="1603526792162" duration="1859000" />
+      <workItem from="1603526792162" duration="2140000" />
+      <workItem from="1603541577940" duration="698000" />
+      <workItem from="1603579762283" duration="5818000" />
+      <workItem from="1604218927310" duration="618000" />
+      <workItem from="1604375072753" duration="85000" />
+      <workItem from="1604377216924" duration="448000" />
+      <workItem from="1605140122205" duration="503000" />
     </task>
     <task id="LOCAL-00001" summary="create folder admin &amp; staff. &#10;Untuk frontpage, fail CSS hanya satu">
       <created>1603165154693</created>
@@ -131,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603360221567</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="tambah report untuk early &amp; late&#10;hadkan no IC masa register kepada 12 saja">
+      <created>1603528690738</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603528690739</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +159,8 @@
     <MESSAGE value="bahagian admin siap semua" />
     <MESSAGE value="admin &amp; staf boleh change password&#10;password mesti ada huruf besar, huruf kecil &amp; nombor&#10;admin boleh;&#10;- delete staf&#10;- reset password staf" />
     <MESSAGE value="print report utk staff" />
-    <option name="LAST_COMMIT_MESSAGE" value="print report utk staff" />
+    <MESSAGE value="tambah report untuk early &amp; late&#10;hadkan no IC masa register kepada 12 saja" />
+    <option name="LAST_COMMIT_MESSAGE" value="tambah report untuk early &amp; late&#10;hadkan no IC masa register kepada 12 saja" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603249530725">
@@ -162,25 +176,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="430" y="219" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1366.0.1366.728/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1603284110760" />
-    <state x="585" y="66" key="CommitChangelistDialog2" timestamp="1603360231908">
+    <state x="585" y="66" key="CommitChangelistDialog2" timestamp="1603528687426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="416" y="0" key="CommitChangelistDialog2/-1366.0.1366.728/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1603284212691" />
-    <state x="585" y="66" key="CommitChangelistDialog2/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603360231908" />
+    <state x="585" y="66" key="CommitChangelistDialog2/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603528687426" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1603337250594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603337250594" />
-    <state x="795" y="442" key="NewPhpFileDialog" timestamp="1603339431035">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="566" y="309" key="NewPhpFileDialog" timestamp="1603586379887">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="566" y="309" key="NewPhpFileDialog/-1366.0.1366.728/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1603283273251" />
+    <state x="566" y="309" key="NewPhpFileDialog/-1366.0.1366.728/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1603586379887" />
     <state x="795" y="442" key="NewPhpFileDialog/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603339431035" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603360290231">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603528709862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="393" y="176" key="Vcs.Push.Dialog.v2/-1366.0.1366.728/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1603284782455" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603360290231" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.312.1366.768/-1366.312.1366.768@0.0.1920.1040" timestamp="1603528709862" />
     <state x="1452" y="0" width="988" height="687" maximized="true" key="dock-window-1" timestamp="1603325222165">
       <screen x="1920" y="312" width="1366" height="768" />
     </state>
